@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ${{ vars.github_runner }}
+    runs-on: ${{ vars.SELF_HOSTED_RUNNER }}
 
     steps:
     - uses: actions/checkout@v4
